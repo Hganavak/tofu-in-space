@@ -1,3 +1,17 @@
 p {
   font-family: Lato;
 }
+
+#tofu-in-orbit {
+  animation: rotation 1ms infinite linear;
+  margin: 50px;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
