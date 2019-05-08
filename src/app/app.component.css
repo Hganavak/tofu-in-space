@@ -4,7 +4,7 @@ p {
 
 #tofu-in-orbit {
   animation: rotation 1ms infinite linear;
-  margin: 69px;
+  margin: 69px 0 69px 0;
 }
 
 a:hover #tofu-in-orbit {
@@ -17,7 +17,7 @@ a:hover #tofu-in-orbit {
   animation: marquee 150ms linear infinite;
   display: inline-block;
   padding-left: 100%;
-  margin: 69px;
+  margin: 69px 0 69px 0;
 }
 
 #someone-important {
